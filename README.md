@@ -4,7 +4,7 @@ Apex Free is a dependency-free Formula 1 dashboard that uses free community APIs
 
 ## Open it locally
 
-Because the app fetches data from remote APIs, run it from a small local web server instead of opening `index.html` directly. The HTML uses relative paths so it works both at a domain root and under a GitHub Pages project path.
+Because the app fetches data from remote APIs, run it from a small local web server instead of opening `index.html` directly.
 
 ```bash
 npm start
@@ -37,7 +37,6 @@ Recommended free options:
    - Push this repository to GitHub.
    - In the repository settings, enable Pages for the current branch.
    - Use `/` as the publish folder.
-   - If you see a blank screen, confirm GitHub Pages is serving the latest commit and hard-refresh the page; the app uses relative `./src/...` asset paths for project pages.
 2. **Netlify**
    - Create a new site from this repository.
    - Leave the build command blank, or use `npm run build` as a syntax check.

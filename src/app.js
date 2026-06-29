@@ -1,3 +1,5 @@
+import './styles.css';
+
 const JOLPICA = 'https://api.jolpi.ca/ergast/f1';
 const OPENF1 = 'https://api.openf1.org/v1';
 const currentYear = new Date().getUTCFullYear();
